@@ -1,0 +1,15 @@
+---
+title: "Find what you are looking for here!"
+---
+
+This is cutie 1.
+
+<img src="files/Kitten.jpg" style="width:50%">
+
+This is Cutie 2.
+
+<img src="files/Daffy.jpg" style="width:50%">
+
+This is cutie 3!
+
+<img src="files/Mis.jpg" style="width:50%">
