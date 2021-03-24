@@ -1,0 +1,14 @@
+name: "cat-website"
+navbar:
+  title: "My cats' website"
+  left:
+    - text: "Home"
+      href: index.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<isa.lindqvist@ki.se>
+    - icon: fa-github fa-lg
+      href: https://github.com/IsaLindqvist/Inventory.git
+output:
+  html_document:
+    theme: darkly
