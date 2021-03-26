@@ -1,0 +1,10 @@
+name: "my-website"
+navbar:
+  title: "Mulder Group"
+  left:
+    - text: "Antibody inventory"
+      href: index.html
+    - text: "Chemical inventory"
+      href: about.html
+    - text: "Tissue inventory"
+      href: tissue.html
