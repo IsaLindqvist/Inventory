@@ -1,5 +1,11 @@
 ---
-title: "About this website"
+title: "Chemicals"
+output: html_document
 ---
 
-More about this website
+```{r, echo=FALSE}
+set.seed(100)
+dt <- read.csv('C:/Users/isali/Documents/IsaLindqvistInventory/rmarkdown-website-examples-master/common-elements/files/Chemicals2021.csv',header = TRUE, sep = ";",stringsAsFactors = TRUE)
+dt <- dt[,c("Produkt","Lagring","Faropiktogram")]
+DT::datatable(dt, options=list(search=list(regex=TRUE, search = '')),escape = FALSE)
+```
