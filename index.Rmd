@@ -1,15 +1,11 @@
 ---
-title: "Find what you are looking for here!"
+title: "Antibodies"
+output: html_document
 ---
 
-This is cutie 1.
-
-<img src="files/Kitten.jpg" style="width:50%">
-
-This is Cutie 2.
-
-<img src="files/Daffy.jpg" style="width:50%">
-
-This is cutie 3!
-
-<img src="files/Mis.jpg" style="width:50%">
+```{r, echo=FALSE}
+set.seed(100)
+dt <- read.csv('C:/Users/isali/Documents/IsaLindqvistInventory/rmarkdown-website-examples-master/common-elements/files/Chemicals2021.csv',header = TRUE, sep = ";",stringsAsFactors = TRUE)
+dt <- dt[,c("Produkt","Lagring","Faropiktogram")]
+DT::datatable(dt, options=list(search=list(regex=TRUE, search = '')),escape = FALSE)
+```
